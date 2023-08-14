@@ -143,7 +143,7 @@ examples: |
     options '--no-install-recommends'
   end
   ```
- **If a package has pattern like name, prevent installation of other apt packages which substring-matches the package's name**:
+  **If a package has pattern like name, prevent installation of other apt packages which substring-matches the package's name**:
 
   ```ruby
   apt_package 'lua5.3' do
